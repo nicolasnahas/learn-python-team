@@ -141,7 +141,7 @@ def test_nested_if_letter_grade():
     assert letter_grade(85) == 'B'
     assert letter_grade(81) == 'B-'
     assert letter_grade(74) == 'C'
-    assert letter_grade(60) == 'D-'
+    assert letter_grade(68) == 'D+'
     assert letter_grade(59) == 'F'
     assert letter_grade(0) == 'F'
     assert letter_grade(-5) == 'Invalid'
